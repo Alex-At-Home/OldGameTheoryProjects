@@ -9,4 +9,7 @@ It's been long enough that I don't remember all the details but the overall idea
 There are 2 projects here:
 * BoardAnalyzer is a mostly complete and functioning library that maps specific situations (and generates probabilities for them)
    * There are some examples included that use the library to solve some very simple simplified games (eg your opponent bets on the flop X% of the time, if your only two options are to fold or raise all-in, what should your range be?)
-* ZeroOneGames is some pretty complicated code to generate approximate solutions to the "[0, 1]" multi-step game described above
+   * Most of the fun is in [CBoardAnalyzer](https://github.com/Alex-At-Home/OldGameTheoryProjects/blob/master/BoardAnalyzer/CBoardAnalyzer.cpp).
+* ZeroOneGames is some pretty complicated code to generate approximate solutions to the "[0, 1]" multi-step game described above, its details are a bit hazy, but it looks like:
+   * [ZeroOneGames_altConv](https://github.com/Alex-At-Home/OldGameTheoryProjects/blob/master/ZeroOneGames/ZeroOneGames_altConv.cpp) handled the FP
+   * [ZeroOneGames_Threshold](https://github.com/Alex-At-Home/OldGameTheoryProjects/blob/master/ZeroOneGames/ZeroOneGames_Threshold.cpp) handled the multi-step and board change logic
