@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?fileVersion 3.1.0?>
+<ManagedProjectBuildInfo>
+  <project id="BoardAnalyzer.cdt.managedbuild.target.gnu.exe.958291200" name="Executable (Gnu)" projectType="cdt.managedbuild.target.gnu.exe">
+    <configuration id="cdt.managedbuild.config.gnu.exe.debug.465003088" name="Debug" description="" parent="cdt.managedbuild.config.gnu.exe.debug" artifactName="BoardAnalyzer" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
+      <toolChain superClass="cdt.managedbuild.toolchain.gnu.exe.debug" id="cdt.managedbuild.toolchain.gnu.exe.debug.1309207388" name="GCC Tool Chain">
+        <tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1855019844" name="GCC C++ Compiler">
+          <option superClass="gnu.cpp.compiler.option.include.paths" id="gnu.cpp.compiler.option.include.paths.1490431596" valueType="includePath">
+            <listOptionValue value="../pokerenum/include" builtIn="false"/>
+            <listOptionValue value="pokerenum/include" builtIn="false"/>
+          </option>
+        </tool>
+        <tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.2138413137" name="GCC C Compiler">
+          <option superClass="gnu.c.compiler.option.include.paths" id="gnu.c.compiler.option.include.paths.1421781768" valueType="includePath">
+            <listOptionValue value="pokerenum/include" builtIn="false"/>
+            <listOptionValue value="../pokerenum/include" builtIn="false"/>
+          </option>
+        </tool>
+        <tool superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1430623064" name="GCC C Linker"/>
+        <tool superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.226797739" name="GCC C++ Linker"/>
+        <tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug" id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1732623548" name="GCC Assembler"/>
+        <macros/>
+      </toolChain>
+      <resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.465003088./BoardAnalyzer/pokerenum/mktab_basic.c" name="mktab_basic.c" exclude="true" resourcePath="/BoardAnalyzer/pokerenum/mktab_basic.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.2138413137./BoardAnalyzer/pokerenum/mktab_basic.c" rcbsApplicability="disable">
+        <tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.2138413137" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.2138413137./BoardAnalyzer/pokerenum/mktab_basic.c" name="GCC C Compiler"/>
+      </resourceConfiguration>
+    </configuration>
+    <configuration id="cdt.managedbuild.config.gnu.exe.release.854249274" name="Release" description="" parent="cdt.managedbuild.config.gnu.exe.release" artifactName="BoardAnalyzer" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
+      <toolChain superClass="cdt.managedbuild.toolchain.gnu.exe.release" id="cdt.managedbuild.toolchain.gnu.exe.release.1061524947" name="GCC Tool Chain">
+        <tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.942280591" name="GCC C++ Compiler">
+          <option superClass="gnu.cpp.compiler.option.include.paths" id="gnu.cpp.compiler.option.include.paths.372579042" valueType="includePath">
+            <listOptionValue value="pokerenum/include" builtIn="false"/>
+            <listOptionValue value="../pokerenum/include" builtIn="false"/>
+          </option>
+        </tool>
+        <tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release" id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.734892691" name="GCC C Compiler">
+          <option superClass="gnu.c.compiler.option.include.paths" id="gnu.c.compiler.option.include.paths.394162576" valueType="includePath">
+            <listOptionValue value="pokerenum/include" builtIn="false"/>
+            <listOptionValue value="../pokerenum/include" builtIn="false"/>
+          </option>
+        </tool>
+        <tool superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release" id="cdt.managedbuild.tool.gnu.c.linker.exe.release.748779168" name="GCC C Linker"/>
+        <tool superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.2067437720" name="GCC C++ Linker"/>
+        <tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.release" id="cdt.managedbuild.tool.gnu.assembler.exe.release.213198320" name="GCC Assembler"/>
+        <macros/>
+      </toolChain>
+      <resourceConfiguration id="cdt.managedbuild.config.gnu.exe.release.854249274./BoardAnalyzer/pokerenum/mktab_basic.c" name="mktab_basic.c" exclude="true" resourcePath="/BoardAnalyzer/pokerenum/mktab_basic.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.release.734892691./BoardAnalyzer/pokerenum/mktab_basic.c" rcbsApplicability="disable">
+        <tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release.734892691" id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.734892691./BoardAnalyzer/pokerenum/mktab_basic.c" name="GCC C Compiler"/>
+      </resourceConfiguration>
+    </configuration>
+  </project>
+</ManagedProjectBuildInfo>
